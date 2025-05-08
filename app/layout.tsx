@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <main className='min-h-screen grid grid-rows-[auto_1fr_auto] gap-4 p-8'>
           <Header />
-          {children}
+          <section className='row-start-2'>{children}</section>
           <Footer />
         </main>
       </body>
